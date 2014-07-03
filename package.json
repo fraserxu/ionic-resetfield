@@ -1,0 +1,23 @@
+{
+  "name": "ionic-resetfield",
+  "version": "0.0.1",
+  "description": "Angularjs ionic directive to enable reset-field on your form element.",
+  "devDependencies": {
+    "uglify-js": "^2.4.14",
+    "coffee-script": "^1.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fraserxu/ionic-resetfield.git"
+  },
+  "keywords": [
+    "ionic",
+    "angularjs"
+  ],
+  "author": "fraserxu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraserxu/ionic-resetfield/issues"
+  },
+  "homepage": "https://github.com/fraserxu/ionic-resetfield"
+}
