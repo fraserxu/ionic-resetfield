@@ -3,6 +3,8 @@ ionic-resetfiled
 
 Angularjs ionic directive to enable reset-field on your form element
 
+Inspired by [angular-resetfield](https://github.com/amageed/angular-resetfield)
+
 #### Install:
 
 * `bower install ionic-resetfield` Install with `bower`
