@@ -1,4 +1,4 @@
-ionic-resetfiled
+ionic-resetfield
 ================
 
 Angularjs ionic directive to enable reset-field on your form element
@@ -21,6 +21,12 @@ In your template
 
 ```
 <input reset-field>
+```
+
+To select which icon to use (defaults to ion-ios7-close).
+
+```
+<input reset-field="ion-close">
 ```
 
 #### Build:

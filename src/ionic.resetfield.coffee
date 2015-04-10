@@ -10,8 +10,12 @@ angular.module 'ionic.resetfield', []
                 throw new Error "restFieeld is limited to input elements"
             if not inputTypes.test attrs.type
                 throw new Error "Invalid input type for resetField"
+        
+            icon = 'ion-ios7-close'
+            if attrs.resetField.length > 0
+                icon = attrs.resetField
 
-            template = $compile('<i ng-show="enabled" ng-click="reset()" class="icon ion-ios7-close"></i>')(scope)
+            template = $compile('<i ng-show="enabled" ng-click="reset()" class="icon ' + icon + ' reset-field-icon"></i>')(scope)
             el.after template
 
             scope.reset = ->
